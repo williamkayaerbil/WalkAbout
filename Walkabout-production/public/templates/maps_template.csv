@@ -1,0 +1,4 @@
+hash,name,description,center,zoom,zoom_ctrl_pos,maptype_ctrl_pos,pan_ctrl_pos,streetview_ctrl_pos,start_time,final_time,step,client_zoom,kml_layer,geojson_layer,header_logo,menu_logo,place_logo,event_logo,header_logo_url,menu_logo_url,place_logo_url,event_logo_url
+1e29ab1ba0efb9f159094440c317e23b,Map1,MyMap,"33.77516950801536,-84.36235060209958",14,0,0,0,0,08:00,20:00,60,18,http://openlayers.org/en/v3.7.0/examples/data/kml/2012-02-10.kml,,http://www.mycitywalkabout.com/img/icons/logo.png,,,,http://www.mycitywalkabout.com,,,
+aea93424aa0efb9f190941440c317e2b3,Map1,MyMap,"33.77516950801536,-84.36235060209958",14,0,0,0,0,08:00,20:00,60,18,,,,,,,,,,
+__RANDOM__,Random Map,MyMap2,"40.492833022789675,-105.02986540312497",15,0,0,0,0,09:00,21:00,60,18,,,,,,,,,,

@@ -1,0 +1,362 @@
+body,html{
+	height: 100%;
+}
+
+ul{
+  list-style: none;
+}
+.panel-heading{
+	padding: 0 !important;
+	background: #fff !important;
+	
+	border: 0;
+}
+.panel-tabs ul{
+	
+	height: 100%;
+	padding: 0;
+	overflow: visible;
+}
+.panel-body{
+	border:0 !important;
+}
+.panel-tabs li{
+	display: inline-block;
+	background: #transparent;
+	border: 2px solid black;
+	margin-right: 1px;
+	padding: 0;
+	height: 40px;
+	width: 105px;
+	border: 0;
+	overflow: visible;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+.panel-heading li a{
+	height: 100%;
+	width: 100%;
+	display: block;
+	font-size: 12px;
+	overflow: visible;
+	background: #eee;
+	padding-left: 40px;	
+	padding-top: 10px;
+}
+.panel-heading li a:hover,.panel-heading li.active a{
+	background: #f15657;
+	color:#fff;
+	border-color: #a15657;
+}
+
+
+.panel-heading li a::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	width: 0;
+	z-index: 11;
+	height: 100%;
+
+	border-color: transparent transparent transparent #eee;
+	border-style: solid;
+	border-width: 20px 0 20px 30px;
+}
+
+.panel-heading li a:hover:after,.panel-heading li.active a:after{
+	border-color: transparent transparent transparent #f15657;
+}
+
+
+
+.panel-heading li::after{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	z-index: 10;
+	height: 100%;
+
+	border-color: transparent transparent transparent #fff;
+	border-style: solid;
+	border-width: 20px 0 20px 30px;
+}
+.col-sm-2, .col-sm-10{
+	padding: 0;
+}
+.side-menu{
+	border: 1px solid #eee;
+	height: 540px;
+}
+.side-panel{
+	height: 100%;
+}
+
+.panel-content{
+	height: 100%;
+	overflow: auto;
+}
+.tab-pane{
+	
+}
+.panel-map{
+	
+	height: 100px;
+}
+
+.buttons{
+	position: absolute;
+	left: 20px;
+	bottom: 40px;
+}
+#map,#map-places,#map-events{
+	height: 400px;
+	
+	
+}
+.controls {
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    height: 32px;
+    margin-top: 16px;
+    outline: medium none;
+}
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+#pac-input:focus {
+    border-color: #4d90fe;
+    margin-left: -1px;
+    padding-left: 14px;
+    width: 301px;
+}
+.pac-container {
+    font-family: Roboto;
+}
+
+.infobox-wrapper {
+    display:none;
+}
+.infobox {
+    border: 1px solid black;
+    margin-top: 8px;
+    background:#fefefe;
+    color:#333;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    width: 330px;
+    padding: .5em 1em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    min-height: 150px;
+    -webkit-box-shadow: 0 0  8px #000;
+    box-shadow: 0 0 8px #000;
+    overflow: visible !important;
+   
+}
+.infobox form{
+	
+}
+.infobox h2{
+	font-size: 14px;
+	font-weight: bold;
+}
+.infobox input{
+	width: 100%;
+}
+.infobox textarea{
+	width: 70%;
+	padding: 5px;
+}
+.infobox img{
+	margin-right: 10px;
+	margin-bottom: 1px;
+	width: 20%;
+	cursor: pointer;
+}
+/*
+.infobox select{
+    height: 25px;
+    margin: 0 0 0 12px;
+    width: 190px;
+}
+*/
+/*
+.btn-plus{
+	background: transparent;;
+	color: #f15657;
+	padding: 0;
+	border:0;
+	font-size: 25px;
+	position: absolute;
+	right: -8px;
+    top: -6px;
+}
+.btn-plus:hover,.btn-plus:focus{
+	background: transparent;
+	border: 0;
+	color: #ef3e40;
+}
+.category-container{
+ 	margin-bottom: 12px;
+    position: relative;
+}
+*/
+
+.input-group{
+	margin-bottom: 12px;
+}
+
+.dd-select {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+}
+.dd-desc {
+    color: #aaa;
+    display: block;
+    font-weight: normal;
+    line-height: 1.4em;
+    overflow: hidden;
+}
+.dd-selected {
+    display: block;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 10px;
+}
+.dd-pointer {
+    height: 0;
+    margin-top: -3px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 0;
+}
+.dd-pointer-down {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #000 transparent transparent;
+    border-image: none;
+    border-right: 5px solid transparent;
+    border-style: solid;
+    border-width: 5px;
+}
+.dd-pointer-up {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    border-color: transparent transparent #000 !important;
+    border-image: none !important;
+    border-style: solid !important;
+    border-width: 5px !important;
+    margin-top: -8px;
+}
+.dd-options {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-right: 1px solid #ccc;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    box-shadow: 0 1px 5px #ddd;
+    display: none;
+    list-style: outside none none;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    z-index: 2000;
+}
+.dd-option {
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out 0s;
+}
+.dd-options > li:last-child > .dd-option {
+    border-bottom: medium none;
+}
+.dd-option:hover {
+    background: none repeat scroll 0 0 #f3f3f3;
+    color: #000;
+}
+.dd-selected-description-truncated {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dd-option-selected {
+    background: none repeat scroll 0 0 #f6f6f6;
+}
+.dd-option-image, .dd-selected-image {
+    float: left;
+    margin-right: 5px;
+    max-width: 64px;
+    vertical-align: middle;
+}
+.dd-image-right {
+    float: right;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.dd-container {
+    position: relative;
+}
+​ .dd-selected-text {
+    font-weight: bold;
+}
+
+.infoBox{
+	overflow: visible !important;
+
+}
+#icons{
+  padding:0;
+  list-style-type: none;
+  width: 100%;
+}
+#icons li{
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+#icons li img{
+  height: 32px;
+  cursor: pointer;
+}
+#preview-image{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+canvas{
+    display: none;
+}

@@ -1,0 +1,56 @@
+@media screen and (max-width: 640px) {
+	#left-menu, #right-menu {
+		width: 256px;
+	}
+
+	#left-menu {
+		left: -256px;
+	}
+
+	#right-menu {
+		right: -256px;
+	}
+
+	#left-menu .logo img, #right-menu .logo img {
+		height: 140px;
+	}
+
+	#left-menu h1, #right-menu h1 {
+		font-size: 135%;
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+
+	#left-menu ul.events li label, #right-menu ul.places li label {
+		font-size: 14px;
+		transition: 0s;
+	}
+
+	#main.left-menu-toggle {
+		left: 256px;
+	}
+
+	#main.right-menu-toggle {
+		left: -256px;
+	}
+
+	#timebar {
+		min-width: 90%;
+		margin-left: -45%;
+	}
+
+	#timebar .rangeslider {
+		width: 90%;
+	}
+
+	#main-controls {
+		min-width: 90%;
+		margin-left: -45%;
+	}
+
+	#main-controls button {
+		width: 30px;
+		background-position: center;
+		color: transparent;
+	}
+}
